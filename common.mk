@@ -77,6 +77,7 @@ PRODUCT_PACKAGES += \
     gdbserver \
     micro_bench \
     oprofiled \
+    Phonograph \
     sqlite3 \
     strace \
     Terminal \
@@ -106,8 +107,7 @@ PRODUCT_PACKAGES += \
 # Snapdragon packages
 PRODUCT_PACKAGES += \
     MusicFX \
-    SnapdragonGallery \
-    SnapdragonMusic
+    SnapdragonGallery
 
 # Include explicitly to work around GMS issues
 PRODUCT_PACKAGES += \
