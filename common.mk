@@ -140,7 +140,8 @@ PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/common/etc/selective-spn-conf.xml:system/etc/selective-spn-conf.xml
 
 PRODUCT_PACKAGE_OVERLAYS += \
-	vendor/aosp/overlay/common
+	vendor/aosp/overlay/common \
+	vendor/aosp/overlay/dictionaries
 
 # Proprietary latinime libs needed for Keyboard swyping
 ifneq ($(filter arm64,$(TARGET_ARCH)),)
